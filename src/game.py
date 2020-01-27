@@ -34,7 +34,7 @@ def get_next_open_row(board, col):
 
 #the board needs its axis to be flipped bc numpy starts at the top right
 def print_board(board):
-	print(np.flip(board, 0))
+	print(np.flip(board, 0)) 
 
 #checks if a player has won
 def winning_move(board, piece):
